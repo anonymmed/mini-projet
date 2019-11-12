@@ -69,7 +69,7 @@ import VueTagsInput from '@johmun/vue-tags-input';
         }),
         methods: {
           saveTranscription: function () {
-                    axios.put('http://127.0.0.1:8080/api/Audios/'+this.audioID+"/",
+                    axios.put('http://localhost:8080/api/Audios/'+this.audioID+"/",
                         {
                             "id" : this.audioID,
                             "name": this.audioName,

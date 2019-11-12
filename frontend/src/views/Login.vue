@@ -30,7 +30,7 @@
     },
     methods: {
       login: function () {
-        axios.post('http://127.0.0.1:8080/api-token-auth/',
+        axios.post('http://localhost:8080/api-token-auth/',
                 {
                   "username": this.username,
                   "password": this.password,

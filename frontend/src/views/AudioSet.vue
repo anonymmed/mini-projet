@@ -93,7 +93,7 @@
           },
           deleteAudio: function (audio) {
 
-            axios.delete('http://127.0.0.1:8080/api/Audios/'+audio.id, {
+            axios.delete('http://localhost:8080/api/Audios/'+audio.id, {
                     headers: {
                         'Authorization': 'token '+ localStorage.getItem('token'),
                         'Access-Control-Allow-Origin' : '*'
@@ -110,7 +110,7 @@
           },
         },
         mounted() {
-            axios.get('http://127.0.0.1:8080/api/Audios/',
+            axios.get('http://localhost:8080/api/Audios/',
                 {
                     headers: {
                         'Authorization': 'token '+ localStorage.getItem('token'),

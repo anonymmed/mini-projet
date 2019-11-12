@@ -12,6 +12,7 @@
   "dependencies": {
     "@johmun/vue-tags-input": "^2.1.0",
     "chartist": "0.11.0",
+    "core-js": "^2.6.10",
     "mdbvue": "6.0.0",
     "node-sass": "4.9.3",
     "sass-loader": "7.1.0",

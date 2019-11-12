@@ -132,7 +132,7 @@ import VueTagsInput from '@johmun/vue-tags-input';
                     this.$swal({type: 'error', title: 'Oops...', text: 'Please enter a correct AudioSet URL!', footer: '<a href="https://batvoice.com">BATVOICE</a>'});
                     return false;
                 } else {
-                    axios.post('http://127.0.0.1:8080/api/Audios/',
+                    axios.post('http://localhost:8080/api/Audios/',
                         {
                             "name": this.name,
                             "transcription": "",
